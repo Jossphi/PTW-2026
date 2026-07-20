@@ -70,11 +70,10 @@ ul {
   list-style: none;
 }
 
-/* Contenedor centrado que replica el ancho de 1440px del artboard */
+/* Contenedor a ancho completo */
 .page {
   width: 100%;
-  max-width: var(--page-width);
-  margin: 0 auto;
+  max-width: 100%;
   position: relative;
   overflow: hidden;
 }
