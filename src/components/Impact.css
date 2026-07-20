@@ -1,0 +1,109 @@
+.impact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 60px 40px 100px;
+  background: var(--color-bg);
+}
+
+.impact__intro {
+  display: flex;
+  flex-direction: column;
+  gap: 318px;
+  align-items: flex-end;
+}
+.impact__intro > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  width: 679px;
+  max-width: 100%;
+}
+
+.impact__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #19191a;
+  padding: 10px 24px;
+  border-radius: var(--radius-pill);
+  font-family: var(--font-mono);
+  font-weight: 300;
+  font-size: 20px;
+  color: var(--color-white);
+}
+.impact__badge-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-red);
+}
+
+.impact__title {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1;
+  color: var(--color-white);
+  margin-top: 8px;
+}
+
+.impact__desc {
+  width: 535px;
+  max-width: 100%;
+  font-family: var(--font-mono);
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.2;
+  color: var(--color-white);
+  text-align: left;
+}
+
+.impact__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 24px;
+  border-radius: var(--radius-pill);
+  font-family: var(--font-mono);
+  font-size: 18px;
+  color: var(--color-white);
+  filter: drop-shadow(var(--shadow-btn));
+}
+.impact__link span { text-decoration: underline; text-underline-offset: 3px; }
+.impact__link strong { font-weight: 700; }
+
+/* Círculos escalonados */
+.impact__circles {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  min-width: 828px;
+}
+.impact__circle {
+  flex-shrink: 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background: var(--color-white);
+  color: #090909;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: -60px;
+}
+.impact__circle--bordered { border: 1px solid #000; }
+.impact__circle-value {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 1;
+}
+.impact__circle-label {
+  font-family: var(--font-mono);
+  font-weight: 300;
+  font-size: 18px;
+}

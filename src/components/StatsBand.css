@@ -1,0 +1,29 @@
+.stats-band {
+  padding: 60px 40px;
+  background: var(--color-bg);
+}
+.stats-band__row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.stats-band__item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.stats-band__value {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 89px;
+  line-height: 1;
+  color: var(--color-white);
+}
+.stats-band__label {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: 28px;
+  color: var(--color-white);
+}
